@@ -1,0 +1,142 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   .header-right a.def-btn {
+     max-width: 230px;
+   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+
+  header {
+    text-align: center;
+  }
+
+  .header-right span {
+    display: block;
+  }
+
+  .header-right a.def-btn {
+    margin-top: 10px;
+  }
+
+  .logo.pr-5 {
+    margin-bottom: 20px;
+  }
+
+  .single-mobile-klean-features {
+    margin-bottom: 60px;
+  }
+
+  .mobile-klean-features-wrap {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .single-features {
+    padding: 0 0px;
+  }
+
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+   .header-wrapper.scrolled .header-right {
+     display: none;
+   }
+
+   .logo {
+     padding: 0 40px;
+   }
+
+   .hero-content h2 {
+     line-height: 36px;
+     font-size: 30px;
+     padding-right: 0;
+   }
+
+   .about-us-content h2 {
+     font-size: 30px;
+     line-height: 38px;
+     padding-right: 0;
+   }
+
+   .peace-of-mind-content-area h2 {
+     font-size: 30px;
+     line-height: 38px;
+     max-width: 100%;
+   }
+
+
+   .peace-of-mind-content-area {
+     padding-top: 40px;
+     padding-left: 15px;
+   }
+
+   .section-title h2 {
+     font-size: 30px;
+     line-height: 38px;
+   }
+
+  .limited-offer-cta h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .health-about-content h2 {
+    font-size: 30px;
+    line-height: 38px;
+    max-width: 100%;
+  }
+
+  section.testomoial-seciton-wrap h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .total-rating {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .special-offer-content h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .special-offer-content>img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -70px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  .footer-menu-wrap a {
+    font-size: 12px;
+    color: #9b9b9b;
+    display: inline-block;
+    border-right: 1px solid #9b9b9b;
+    padding-right: 7px;
+    padding-left: 5px;
+  }
+
+
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+}
