@@ -10,13 +10,13 @@ setInterval(function () {
 // header scroll 
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
-
+if(window.innerWidth> 766){
 	  if (scroll >= 60) {
     $(".header-wrapper").addClass("scrolled");
   } else {
     $(".header-wrapper").removeClass("scrolled");
   }
-
+}
 
 });
 
