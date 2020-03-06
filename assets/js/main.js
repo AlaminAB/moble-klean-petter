@@ -11,9 +11,12 @@ setInterval(function () {
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
 
-  if (scroll >= 60) {
+	  if (scroll >= 60) {
     $(".header-wrapper").addClass("scrolled");
   } else {
     $(".header-wrapper").removeClass("scrolled");
   }
+
+
 });
+

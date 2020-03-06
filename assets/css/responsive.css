@@ -3,19 +3,19 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1500px){ 
-    
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-   .header-right a.def-btn {
-     max-width: 230px;
-   }
+ .header-right a.def-btn {
+   max-width: 230px;
+ }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-   
+
 
   header {
     text-align: center;
@@ -49,94 +49,223 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
-   .header-wrapper.scrolled .header-right {
-     display: none;
-   }
+ .header-wrapper.scrolled .header-right {
+   display: none;
+ }
+ .logo.pr-lg-5 span {
+  font-size: 12px;
+}
+.logo {
 
-   .logo {
-     padding: 0 40px;
-   }
+ text-align: center;
+}
+.logo-img{
+  padding: 0 18px;
+}
+.hero-content h2 {
+ line-height: 36px;
+ font-size: 30px;
+ padding-right: 0;
+}
 
-   .hero-content h2 {
-     line-height: 36px;
-     font-size: 30px;
-     padding-right: 0;
-   }
+.about-us-content h2 {
+ font-size: 30px;
+ line-height: 38px;
+ padding-right: 0;
+}
 
-   .about-us-content h2 {
-     font-size: 30px;
-     line-height: 38px;
-     padding-right: 0;
-   }
-
-   .peace-of-mind-content-area h2 {
-     font-size: 30px;
-     line-height: 38px;
-     max-width: 100%;
-   }
+.peace-of-mind-content-area h2 {
+ font-size: 30px;
+ line-height: 38px;
+ max-width: 100%;
+}
 
 
-   .peace-of-mind-content-area {
-     padding-top: 40px;
-     padding-left: 15px;
-   }
+.peace-of-mind-content-area {
+ padding-top: 40px;
+ padding-left: 15px;
+}
 
-   .section-title h2 {
-     font-size: 30px;
-     line-height: 38px;
-   }
+.section-title h2 {
+ font-size: 30px;
+ line-height: 38px;
+}
 
-  .limited-offer-cta h2 {
-    font-size: 26px;
-    margin-bottom: 20px;
-  }
+.limited-offer-cta h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
 
-  .health-about-content h2 {
-    font-size: 30px;
-    line-height: 38px;
-    max-width: 100%;
-  }
+.health-about-content h2 {
+  font-size: 30px;
+  line-height: 38px;
+  max-width: 100%;
+}
 
-  section.testomoial-seciton-wrap h2 {
-    font-size: 30px;
-    line-height: 38px;
-  }
+section.testomoial-seciton-wrap h2 {
+  font-size: 22px;
+  line-height: 30px;
+}
 
-  .total-rating {
-    margin-bottom: 30px;
+.total-rating {
+  margin-bottom: 30px;
+ 
+}
+
+.special-offer-content h2 {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.special-offer-content>img {
+  width: 100%;
+  max-width: 100%;
+  margin-top: -70px;
+}
+
+footer {
+  text-align: center;
+}
+.footer-menu-wrap a {
+  font-size: 12px;
+  color: #9b9b9b;
+  display: inline-block;
+  border-right: 1px solid #9b9b9b;
+  padding-right: 7px;
+  padding-left: 5px;
+}
+.hero-section-wrap.top-wrapper {
+ background-image: none;
+ padding: 0;
+}
+
+section.hero-section-wrap .container {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+.mobile-view-img.d-block.d-md-none {
+  position: relative;
+  width: 100%;
+}
+.mobile-view-img.d-block.d-md-none img{
+ width:100%;
+ height:100%;
+}
+.hero-topper-mobile {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 22px;
+}
+.hero-topper-mobile h2 {
+  font-size: 22px;
+}
+
+.hero-topper-mobile h6 {
+  font-size: 16px;
+}
+ul.hero-list {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hero-content>span {
+  text-align: center;
+  padding: 0px 15px;
+}
+a.def-btn.sm-center {
+  display: block;
+  margin: auto;
+}
+.header-right a.def-btn {
+    display: none;
+}
+header.header-wrapper.sticky-top {
+    position: static;
+}
+.box.d-flex.align-items-center.mt-4 {
+    padding-bottom: 25px;
+}
+.about-us-img img {
+    display: block;
     text-align: center;
-  }
-
-  .special-offer-content h2 {
-    font-size: 30px;
-    line-height: 38px;
-  }
-
-  .special-offer-content>img {
-    width: 100%;
-    max-width: 100%;
-    margin-top: -70px;
-  }
-
-  footer {
+    margin: 0 auto;
+    width: 30%;
+}
+.about-us-content h2 {
     text-align: center;
-  }
-  .footer-menu-wrap a {
-    font-size: 12px;
-    color: #9b9b9b;
-    display: inline-block;
-    border-right: 1px solid #9b9b9b;
-    padding-right: 7px;
-    padding-left: 5px;
-  }
+    font-size: 22px;
+    line-height: 30px;
+}
+.about-us-content h2::before {
 
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
 
+}
+.peace-of-mind-content-area h2 {
+    font-size: 22px;
+    text-align: center;
+}
+.peace-of-mind-content-area h2:before {
+   
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.health-about-content h2 {
+    text-align: center;
+        font-size: 22px;
+    line-height: 30px;
+}
+.health-about-content h2:before {
+   
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+section.hero-section-wrap.banner-section-wrap {
+    background-image: none;
+    padding: 0;
+}
+.cta-row-content h2 {
+    font-size: 16px;
+
+}
+.cta-row-content h2 br{
+  display: none;
+}
 }
 
 
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-   
+@media (max-width: 575.98px) { 
+ .hero-topper-mobile {
+  padding-top: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+@media (min-width: 600px) { 
+  .hero-topper-mobile  br{
+    display: none;
+  }
+  .health-about-content br{
+    display: none;
+  }
 }
